@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: block;
+  width: 100%;
+  background-position: center;
+}
+
+.hero-image {
+	background-image: url("imgs/ball.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 400px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.home{
+  padding: 0;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: rgb(192, 152, 21);
+}
+
+.right {
+  float: right;
+}
+
+.fa {
+  width: 18px;
+  height: 20px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 600px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #d835f8;
+  color: white;
+}
+
+.fa:hover{
+  background: rgb(73, 73, 73);
+  color: white;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+.centered{
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 20px;
+}
+
+figure{
+  width: 20%;
+  border: 2px solid black;
+  padding: 6px;
+  float:left;
+  margin: 20px;
+}
+
+video{
+  float: left;
+  margin: 15px;
+}
+
+.news-img{
+  width:15%;
+  float:left;
+  margin: 15px;
+}
+
+i{
+  color:rgb(73, 73, 73)
+}
+
+.news{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  clear: both;
+  overflow: auto;
+  width: 100%;
+  border: 1px solid #333;
+  margin-bottom: 10px;
+}
